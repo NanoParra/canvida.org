@@ -170,10 +170,10 @@ export default function Home() {
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
           {[
-            { name: 'CannaOil', desc: 'Aceite sublingual premium para uso terapéutico', img: '/1.jpeg', gradient: 'from-emerald-500 to-emerald-600' },
-            { name: 'CannaCaps', desc: 'Cápsulas de liberación controlada y natural', img: '/2.jpeg', gradient: 'from-purple-500 to-purple-600' },
-            { name: 'CannaGummy', desc: 'Gomitas con extracto terapéutico de calidad', img: '/3.jpeg', gradient: 'from-emerald-600 to-purple-500' },
-            { name: 'CannaCream', desc: 'Crema analgésica para aplicación tópica', img: '/4.jpeg', gradient: 'from-purple-600 to-emerald-500' },
+            { name: 'CannaOil', desc: 'Aceite sublingual premium para uso terapéutico', img: '/2.jpeg', gradient: 'from-emerald-500 to-emerald-600' },
+            { name: 'CannaCaps', desc: 'Cápsulas de liberación controlada y natural', img: '/3.jpeg', gradient: 'from-purple-500 to-purple-600' },
+            { name: 'CannaGummy', desc: 'Gomitas con extracto terapéutico de calidad', img: '/4.jpeg', gradient: 'from-emerald-600 to-purple-500' },
+            { name: 'CannaCream', desc: 'Crema analgésica para aplicación tópica', img: '/1.jpeg', gradient: 'from-purple-600 to-emerald-500' },
           ].map(({ name, desc, img, gradient }, idx) => (
             <motion.div
               key={name}
