@@ -402,7 +402,7 @@ export default function Home() {
       <footer className="bg-gradient-to-r from-emerald-900 via-emerald-800 to-purple-900 text-white py-12 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-emerald-400 to-purple-500 rounded-full flex items-center justify-center">
-            <span className="text-2xl font-bold">C</span>
+            <span className="text-2xl font-bold"><img src="/logo.png" alt="logo" /></span>
           </div>
           <h3 className="text-2xl font-bold mb-2">Cannavida</h3>
           <p className="text-emerald-200 mb-6">Bienestar natural desde Puerto Montt, Chile</p>
